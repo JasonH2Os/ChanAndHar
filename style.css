@@ -1,0 +1,39 @@
+/* FILEPATH: style.css */
+
+body {
+    background-color: blue;
+}
+nav {
+    background-color: #ee0fab;
+    color: white;
+    overflow: hidden;
+    position: top;
+    width: 100%;
+    z-index: 1;
+}
+li {
+    text-justify: auto;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: all 0.5s;
+    
+}
+li:hover {
+    transform: scale(1.5);
+}
+
+img {
+    width: 25%;
+    height: 25%;
+    object-fit: cover;
+}
